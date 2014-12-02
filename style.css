@@ -1,0 +1,50 @@
+h1, h2, h3, h4, h5, h6{
+
+}
+
+@font-face {
+    font-family: "CaviarDreams";
+    src: url('CaviarDreams.ttf');
+    
+@font-face {
+    font-family: "Caviar_Dreams_Bold";
+    src: url('Caviar_Dreams_Bold.ttf');
+}
+
+.panneau {
+    background-color: gray;
+    font-variant: small-caps;
+    font-family: sans-serif;
+    font-weight: 700;
+    
+}
+
+body {}
+.21 {
+    font-variant: small-caps;
+    color: gray;
+}
+
+h1 {
+    font-family: Paytone One;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: Paytone One
+    font-size: 40px
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+head a:hover {
+        background-color:rgb(250, 250, 250, 0.2);
+}
+
+head li {
+           display:inline-block;
+           width:32%
+           text-align:center;
+}
