@@ -1,14 +1,24 @@
 h1, h2, h3, h4, h5, h6{
 
 }
+main {
+max-width:800px;
+    margin:auto;
+    margintop:100px;
+    padding:20px;
+    background-color:rgba (0,0,0,.1);
+}
 
-@font-face {
-    font-family: "CaviarDreams";
-    src: url('CaviarDreams.ttf');
+
+.image-small:hover {
+    width 100%;
+    border radius 300px;
     
-@font-face {
-    font-family: "Caviar_Dreams_Bold";
-    src: url('Caviar_Dreams_Bold.ttf');
+}
+
+.image-small {
+    width:100px;
+    transition: width 1s linear;
 }
 
 .panneau {
@@ -26,25 +36,31 @@ body {}
 }
 
 h1 {
-    font-family: Paytone One;
-    font-size: 60px;
+   font-family: 'Bree Serif', serif;
+    font-size: 20px;
 }
 
 h2 {
-    font-family: Paytone One
-    font-size: 40px
+         font-family: 'Bree Serif', serif;
+           font-size: 20px;
 }
 
 h3 {
-    font-family: sans-serif;
+           font-family: 'Bree Serif', serif;
+}
+
+head a {
+          transition: width 1s linear;
+    font-family: 'Bree Serif', serif;
 }
 
 head a:hover {
-        background-color:rgb(250, 250, 250, 0.2);
+          background-color:rgb(250, 250, 250, 0.2);
 }
 
-head li {
+header li {
            display:inline-block;
            width:32%
            text-align:center;
+  font-family: 'Bree Serif', serif;
 }
