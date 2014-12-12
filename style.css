@@ -14,9 +14,6 @@ img {
     font-weight: 700;
       
 
-    
-    
-
 
 }
 
@@ -31,7 +28,6 @@ max-width:800px;
     margin:auto;
     margintop:100px;
     padding:20px;
-    background-color:rgba (0,0,0,.1);
 }
 
 
@@ -78,6 +74,9 @@ header li {text-align: center;
 }
 
 header {
-background-color: black;
+background-image: url(images/footer_lodyas.png);
 
 }
+
+body {
+background-image:url(images/upfeathers.png);}
