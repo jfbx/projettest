@@ -17,6 +17,16 @@ img {
 
 }
 
+.bandeau2 { text-align: center;
+    font-variant:small-caps;
+    font-family: 'Bree Serif', serif;
+    font-size:30px;
+    font-weight: 700;
+      
+
+
+}
+
 a {
 color: white;
 text-decoration:none;
@@ -52,7 +62,7 @@ text-align: center;
     color: gray;
 }
 
-h1 {
+h1 { color: white;
    font-family: 'Bree Serif', serif;
     font-size: 20px;
     
@@ -80,3 +90,9 @@ background-image: url(images/footer_lodyas.png);
 
 body {
 background-image:url(images/upfeathers.png);}
+
+footer {
+ background-image: url(images/footer_lodyas.png);
+width: 1570px;
+height: 251px;
+}
