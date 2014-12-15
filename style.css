@@ -1,23 +1,9 @@
-h1, h2, h3, h4, h5, h6{
-
-}
-
-img { 
+.imageac img { 
     border-radius:50%;
     align-img: center;
 }
 
 .bandeau { text-align: center;
-    font-variant:small-caps;
-    font-family: 'Bree Serif', serif;
-    font-size:30px;
-    font-weight: 700;
-      
-
-
-}
-
-.bandeau2 { text-align: center;
     font-variant:small-caps;
     font-family: 'Bree Serif', serif;
     font-size:30px;
@@ -33,25 +19,16 @@ text-decoration:none;
     
 }
 
+.contact {
+color: black;
+}
+
 main {
 max-width:800px;
     margin:auto;
     margintop:100px;
     padding:20px;
 }
-
-
-.image-small:hover {
-    width 100%;
-    border radius 300px;
-    
-}
-
-.image-small {
-    width:100px;
-    transition: width 1s linear;
-}
-
 
 body {
 text-align: center;
@@ -91,8 +68,13 @@ background-image: url(images/footer_lodyas.png);
 body {
 background-image:url(images/upfeathers.png);}
 
-footer {
- background-image: url(images/footer_lodyas.png);
-width: 1570px;
-height: 251px;
+footer{
+text-align: center;
+height:80px;
+padding-top: 18px;
+color: white;
+font-size:  13px;
+background-image: url(images/footer_lodyas.png);
 }
+ul{
+list-style: none;}
