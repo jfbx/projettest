@@ -1,3 +1,13 @@
+body, html {
+    height:100%;
+    margin:0;
+}
+
+.site-wrap{
+    min-height:100%;
+    margin-bottom:-98px;
+}
+
 .imageac img { 
     border-radius:50%;
     align-img: center;
@@ -24,6 +34,7 @@ main {
     font-family: 'Bree Serif', serif;
     font-size:30px;
     font-weight: 700;
+    margin-top:0;
       
 
 
@@ -37,13 +48,6 @@ text-decoration:none;
 
 .contact {
 color: black;
-}
-
-main {
-max-width:800px;
-    margin:auto;
-    margintop:100px;
-    padding:20px;
 }
 
 body {
