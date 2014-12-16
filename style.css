@@ -8,6 +8,17 @@
 
 }
 
+main {
+    max-width: 600px;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 13px #ccc;
+    font-size:12px;
+}
+
 .bandeau { text-align: center;
     font-variant:small-caps;
     font-family: 'Bree Serif', serif;
@@ -81,5 +92,6 @@ color: white;
 font-size:  13px;
 background-image: url(images/footer_lodyas.png);
 }
+
 ul{
 list-style: none;}
